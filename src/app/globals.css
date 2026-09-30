@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-navy-dark font-sans antialiased;
+}
+
+.container-x {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-full px-6 py-3 font-semibold transition;
+}
+
+.btn-gold {
+  @apply bg-gold text-navy-dark hover:bg-gold-dark;
+}
+
+.btn-outline {
+  @apply border border-white/70 text-white hover:bg-white hover:text-navy;
+}
